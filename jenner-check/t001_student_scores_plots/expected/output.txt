@@ -1,0 +1,126 @@
+                                                   The Jenner System               10:17 Friday, November 27, 2026     1
+
+                                                 The CONTENTS Procedure
+
+                          Data Set Name        MYLIB.STUDENTDATA      Observations          60
+                          Member Type          DATA                   Variables             33
+                          Engine               PARQUET                Indexes               0
+                          Created              11/27/2026 10:17:19    Deleted Observations  0
+                          Last Modified        11/27/2026 10:17:19    Compressed            NO
+                          Protection                                  Sorted                NO
+                          Data Set Type
+                          Label
+                          Encoding             utf-8  Unicode (UTF-8)
+
+
+                                            Engine/Host Dependent Information
+
+                                       Filename           ././studentdata.parquet
+                                       Inode Number       908777
+                                       Access Permission  rw-r--r--
+                                       File Size (bytes)  21885
+
+
+                                      Alphabetic List of Variables and Attributes
+
+                                             #    Variable      Type    Len
+
+                                            30    absences      Num       8
+                                            19    activities    Char      8
+                                             4    address       Char      8
+                                             3    age           Num       8
+                                            27    Dalc          Num       8
+                                            15    failures      Num       8
+                                            24    famrel        Num       8
+                                             5    famsize       Char      8
+                                            17    famsup        Char      8
+                                             8    Fedu          Num       8
+                                            10    Fjob          Char      8
+                                            25    freetime      Num       8
+                                            31    G1            Num       8
+                                            32    G2            Num       8
+                                            33    G3            Num       8
+                                            26    goout         Num       8
+                                            12    guardian      Char      8
+                                            29    health        Num       8
+                                            21    higher        Char      8
+                                            22    internet      Char      8
+                                             7    Medu          Num       8
+                                             9    Mjob          Char      8
+                                            20    nursery       Char      8
+                                            18    paid          Char      8
+                                             6    Pstatus       Char      8
+                                            11    reason        Char      8
+                                            23    romantic      Char      8
+                                             1    school        Char      8
+                                            16    schoolsup     Char      8
+                                             2    sex           Char      8
+                                            14    studytime     Num       8
+                                            13    traveltime    Num       8
+                                            28    Walc          Num       8
+
+                                                   The Jenner System               10:17 Friday, November 27, 2026     2
+
+                                                   The FREQ Procedure
+
+                                                                 Cumulative    Cumulative
+                           Mjob        Frequency    Percent     Frequency      Percent
+                           -----------------------------------------------------------------
+                           at_home             6     10.00            6        10.00
+                           health              8     13.33           14        23.33
+                           other              21     35.00           35        58.33
+                           services           14     23.33           49        81.67
+                           teacher            11     18.33           60       100.00
+
+                                                                 Cumulative    Cumulative
+                           Fjob        Frequency    Percent     Frequency      Percent
+                           -----------------------------------------------------------------
+                           at_home             3      5.00            3         5.00
+                           health              4      6.67            7        11.67
+                           other              33     55.00           40        66.67
+                           services           15     25.00           55        91.67
+                           teacher             5      8.33           60       100.00
+                                                   The Jenner System               10:17 Friday, November 27, 2026     3
+
+                                                  The MEANS Procedure
+
+                                                Analysis Variable : G1
+
+                                        N
+              Mjob        Fjob        Obs            Mean         Std Dev         Minimum         Maximum
+              -------------------------------------------------------------------------------------------
+              at_home     other         5       9.2000000       3.4205263       5.0000000      14.0000000
+
+                          teacher       1       5.0000000               .       5.0000000       5.0000000
+
+              health      health        1      12.0000000               .      12.0000000      12.0000000
+
+                          other         3      12.3333333       3.7859389       8.0000000      15.0000000
+
+                          services      4      13.2500000       2.8722813       9.0000000      15.0000000
+
+              other       at_home       1       8.0000000               .       8.0000000       8.0000000
+
+                          other        16       9.9375000       3.1721444       6.0000000      15.0000000
+
+                          services      2       8.5000000       3.5355339       6.0000000      11.0000000
+
+                          teacher       2      10.5000000       6.3639610       6.0000000      15.0000000
+
+              services    health        2      11.0000000       1.4142136      10.0000000      12.0000000
+
+                          other         6      11.6666667       3.3266600       7.0000000      16.0000000
+
+                          services      6      10.8333333       4.5350487       6.0000000      17.0000000
+
+              teacher     at_home       2      11.5000000       7.7781746       6.0000000      17.0000000
+
+                          health        1      10.0000000               .      10.0000000      10.0000000
+
+                          other         3      12.6666667       2.5166115      10.0000000      15.0000000
+
+                          services      3      10.0000000       4.3588989       7.0000000      15.0000000
+
+                          teacher       2      12.5000000       3.5355339      10.0000000      15.0000000
+              -------------------------------------------------------------------------------------------
+

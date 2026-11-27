@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_student_scores_plots",
+  "source_file": "SASMiniProject1.sas",
+  "source_blob_sha": "8268b80491d7ff2040985ec89fc43ab520dea21a",
+  "source_commit": "29d1d2ee9bf035951cdaa8b499455109a354e671",
+  "notes": "Mini project 1 script: PROC IMPORT of ST513P1.xlsx replaced by a 60-row DATALINES sample of the same sheet; libname path set to '.'; all PROC steps unchanged."
+}
